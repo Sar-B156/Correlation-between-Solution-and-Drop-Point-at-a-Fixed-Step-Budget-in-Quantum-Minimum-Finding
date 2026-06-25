@@ -14,10 +14,10 @@ Three figures are generated. The first overlays the efficiency curve $R_S(\alpha
 
 | Path | Contents |
 |---|---|
-| `data/alpha_star_results.csv` | Raw numerical output: $\alpha^*(S)$ and $R_S(\alpha^*)$ for each tested step budget, plus the comparison data behind the third figure. |
-| `figures/fig1_RS_curves.pdf` | $R_S(\alpha)$ overlaid for several step budgets, with the optimum marked on each curve. |
-| `figures/fig2_alpha_star_vs_S.pdf` | $\alpha^*(S)$ plotted against the step budget $S$ on a logarithmic axis, alongside the structural bound. |
-| `figures/fig3_step_budget_comparison.pdf` | Threshold trajectory and cumulative cost when a step-budget-tuned $\alpha$ is extended past its intended budget. |
+| `data/alpha_star_results.csv` | Raw numerical output: $`\alpha^*(S)`$ and $`R_S(\alpha^*)`$ for each tested step budget, plus the comparison data behind the third figure. |
+| `figures/fig1_RS_curves.pdf` | $`R_S(\alpha)`$ overlaid for several step budgets, with the optimum marked on each curve. |
+| `figures/fig2_alpha_star_vs_S.pdf` | $`\alpha^*(S)`$ plotted against the step budget $`S`$ on a logarithmic axis, alongside the structural bound. |
+| `figures/fig3_step_budget_comparison.pdf` | Threshold trajectory and cumulative cost when a step-budget-tuned $`\alpha`$ is extended past its intended budget. |
 
 
 ## Running the experiments
