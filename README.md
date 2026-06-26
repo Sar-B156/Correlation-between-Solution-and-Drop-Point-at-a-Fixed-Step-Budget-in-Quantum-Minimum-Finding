@@ -22,12 +22,7 @@ Three figures are generated. The first overlays the efficiency curve $R_S(\alpha
 
 ## Running the experiments
 
-The script depends on [NumPy](https://numpy.org/), [Matplotlib](https://matplotlib.org/), and [SciPy](https://scipy.org/). With these installed, running the script from the repository root regenerates every figure and the results table from scratch:
-
-```bash
-pip install -r requirements.txt
-python3 bfdh_experiments.py
-```
+The script depends on [NumPy](https://numpy.org/), [Matplotlib](https://matplotlib.org/), and [SciPy](https://scipy.org/). 
 
 Output is written to `figures/` and `data/`, overwriting the committed copies. This is intentional: the committed files represent one verified run, and re-running the script should reproduce them exactly, since every computation here is deterministic.
 
