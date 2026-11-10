@@ -29,3 +29,8 @@ Output is written to `figures/` and `data/`, overwriting the committed copies. T
 ## Verifying the results independently
 
 Each value in `data/alpha_star_results.csv` can be checked by hand by substituting the corresponding $\alpha^*(S)$ back into the closed-form expression for $R_S(\alpha)$ inside `bfdh_experiments.py` and confirming it sits at the peak of the curve for that step budget. The script itself performs this cross-check by comparing the result of the dense parameter sweep against the Newton–Raphson solution at each step budget, and the two are reported alongside each other in the console output when the script runs.
+
+
+
+If you would like to know more, you can visit this [page](https://sar-b156.github.io/Correlation-between-Solution-and-Drop-Point-at-a-Fixed-Step-Budget-in-Quantum-Minimum-Finding/)
+URL: https://sar-b156.github.io/Correlation-between-Solution-and-Drop-Point-at-a-Fixed-Step-Budget-in-Quantum-Minimum-Finding/
