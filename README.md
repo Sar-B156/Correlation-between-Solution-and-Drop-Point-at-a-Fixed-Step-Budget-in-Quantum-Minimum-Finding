@@ -33,4 +33,5 @@ Each value in `data/alpha_star_results.csv` can be checked by hand by substituti
 
 
 If you would like to know more, you can visit this [page](https://sar-b156.github.io/Correlation-between-Solution-and-Drop-Point-at-a-Fixed-Step-Budget-in-Quantum-Minimum-Finding/)
+
 URL: https://sar-b156.github.io/Correlation-between-Solution-and-Drop-Point-at-a-Fixed-Step-Budget-in-Quantum-Minimum-Finding/
